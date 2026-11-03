@@ -20,7 +20,7 @@ def test_temperature():
             print(f"Temperature is now {tempereture}°C\n")
         except Exception as e:
             print(f"Caught input_temperature error: {e}\n")
-    
+
     print("All tests completed - program didn't crash!")
 
 

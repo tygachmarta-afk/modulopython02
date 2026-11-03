@@ -26,7 +26,7 @@ def check_water():
     raise WaterError("Not enough water in the tank!")
 
 
-def  test_custom_errors():
+def test_custom_errors():
     print("=== Custom Garden Errors Demo ===\n")
 
     print("Testing PlantError...")
@@ -50,6 +50,6 @@ def  test_custom_errors():
 
     print("\nAll custom error types work correctly!")
 
-    
+
 if __name__ == "__main__":
     test_custom_errors()
